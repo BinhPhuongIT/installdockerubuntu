@@ -1,3 +1,6 @@
+#!/usr/bin/env sh
+#set -vx
+
 echo "Set up the repository"
 sudo apt-get update
 sudo apt-get install \
