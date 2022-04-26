@@ -15,3 +15,6 @@ sudo apt install docker-ce -y
 
 echo "Install Docker compose"
 sudo apt install docker-compose -y
+
+echo "Add docker user"
+sudo usermod -aG docker $USER
