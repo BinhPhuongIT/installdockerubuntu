@@ -2,8 +2,8 @@
 #set -vx
 
 echo "Set up the repository"
-sudo apt-get update
-sudo apt-get install \
+sudo apt-get update -y
+sudo apt-get install -y \
     ca-certificates \
     curl \
     gnupg \
