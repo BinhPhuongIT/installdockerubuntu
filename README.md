@@ -1,17 +1,17 @@
 # install docker on ubuntu
 
 
-#1 Create user ci
+Step 1: Create user ci
 adduser ci
 
-#2 Add to Group sudo
+Step 2: Add to Group sudo
 usermod -aG sudo ci
 
-#3 Login to ci
+Step 3: Login to ci
 su ci
 
-#4 Download source
+Step 4: Download source
 git clone https://github.com/BinhPhuongIT/installdockerubuntu.git
 
-#5 Install Docker
+Step 5: Install Docker
 cd installdockerubuntu && sudo sh install.sh
