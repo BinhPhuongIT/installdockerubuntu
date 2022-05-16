@@ -14,4 +14,4 @@ su ci
 git clone https://github.com/BinhPhuongIT/installdockerubuntu.git
 
 #5 Install Docker
-sh install.sh
+cd installdockerubuntu && sudo sh install.sh
