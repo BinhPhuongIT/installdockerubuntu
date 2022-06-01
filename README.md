@@ -1,15 +1,15 @@
-# install docker on ubuntu
+## install docker on ubuntu
 
-# Create user
+### Create user
 adduser ci
 
-# Add to group sudo
+### Add to group sudo
 usermod -aG sudo ci
 
-# Login to ci
+### Login to ci
 su ci
 
-# Install dockler
+### Install dockler
 git clone https://github.com/BinhPhuongIT/installdockerubuntu.git
 
 cd installdockerubuntu && sudo sh install.sh
