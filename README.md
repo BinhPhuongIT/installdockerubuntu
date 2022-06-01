@@ -1,7 +1,9 @@
 ## install docker on ubuntu
 
 ### Create user
+```sh
 adduser ci
+```
 
 ### Add to group sudo
 usermod -aG sudo ci
