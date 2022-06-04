@@ -22,7 +22,7 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 echo "Install Docker Engine"
 sudo apt-get update
 sudo apt-cache policy docker-ce
-sudo apt install docker-ce -y
+sudo apt install -y docker-ce docker-ce-cli containerd.io
 #sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 echo "Install Docker compose"
